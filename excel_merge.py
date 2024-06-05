@@ -4,9 +4,9 @@ import xlrd
 import xlwt
 
 # 指定要合并excel的路径
-src_path = 'D:/Workspaces/office-automation/test_files/调查问卷'
+src_path = './test_files/调查问卷'
 # 指定合并完成的路径
-dist_file = "D:/Workspaces/office-automation/test_files/调查问卷/结果.xlsx"
+dist_file = "./test_files/调查问卷/结果.xlsx"
 
 # 取得该目录下所有的xlsx格式文件
 p = Path(src_path)
